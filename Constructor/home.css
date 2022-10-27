@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background-color: hsl(180, 94%, 31%);
+    min-width: 100%;
+    position: absolute;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.menu h2{
+    color: #fff;
+    font-size: 1.8em;
+    margin-left: 150px;
+}
+.menu ul{
+    display: flex;
+    font-size: 1em;
+    list-style: none;
+    flex-direction: row;
+    margin-right: 150px;
+}
+.menu ul li{
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer	;
+}
+.menu ul a{
+    text-decoration: none;
+}
+
+.information{
+    display: flex;
+    min-width: 100%;
+    min-height: 300px;
+}
+.text-information{
+    margin-left: 150px;
+    margin-top: 150px;
+}
+.text-information h3{
+    font-size: 1.8em;
+    margin-top: 10px;
+}
+.text-information p{
+    margin-top: 30px;
+    color:#059b9a;
+    font-size: 3.5em;
+
+}
+.img-information{
+    display: flex;
+    position: absolute;
+    max-height: 450px;
+    min-width: 50%;
+    margin-left: 600px;
+    margin-top: 100px;
+}
+.meet{
+    font-size: 1.5em;
+    background:#059b9a;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.meet:hover{
+    opacity: 0.8;
+    transition: .5s;
+}
+
+.cards{
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+.cards-line{
+    display: flex;
+    font-size: 1em;
+    list-style: none;
+    flex-direction: row;
+    
+}
+.cards-line li{
+    list-style: none;
+    
+    margin: 10px;
+    border: 2px solid #059b9a;
+    border-radius: 5px;
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2) ;
+}
+.cards-tittles{
+    background-color: #059b9a;
+    color: #fff;
+    text-align: center;
+}
+.cards-text{
+    font-size: 1em;
+    margin: 15px 10px;
+}
+
+
+footer{
+    background-color: #059b9a;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+.icons hr{
+    width: 800px;
+}
+.icons ion-icon{
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+    padding: 5px;
+}
